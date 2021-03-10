@@ -13,7 +13,17 @@ header h1{
     background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
+section h1{
+    margin-top: 2.2em;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Volkhov', serif;
+    color: rgb(255, 252, 45);
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 table {
     font-family: Arial;
     margin: 25px auto;
