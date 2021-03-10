@@ -13,10 +13,17 @@
     </head>
     <body>
         <header>
-            <h1>Css Selectors</h1>
+            <nav>
+                <ul id="navigation">
+                    <li><a href="#">CSS Selector</a></li>
+                    <li><a href="#specifity">Specificity</a></li>
+                </ul>
+            </nav>
         </header>
-
         <main>
+            <header>
+                <h1>Css Selectors</h1>
+            </header>
             <!-- this is where our main table will be -->
             <table>
                 <tr>
@@ -111,10 +118,10 @@
                 </tr>
             </table>
 
-            <section>
+            <section id="specifity">
                 <h1>Calculating CSS Specificity Value</h1>
                 <img src="./img/specificity-calculationbase.png" alt="showing picture most specificity to least specificity" />
-                <ul>
+                <ul id="specifity-list">
                     <li>If the element has inline styling, that automatically1 wins (1,0,0,0 points)</li>
                     <li>For each ID value, apply 0,1,0,0 points</li>
                     <li>For each class value (or pseudo-class or attribute selector), apply 0,0,1,0 points</li>
