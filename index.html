@@ -69,6 +69,46 @@
                     <td><code>div &nbsp;p</code></td>
                     <td>Selects all <mark>&lt;p&gt;</mark> elements inside <mark>&lt;div&gt;</mark> elements</td>
                 </tr>
+                <tr>
+                    <td><code>element &gt; element</code></td>
+                    <td><code>div &gt; p</code></td>
+                    <td>Selects all <mark>&lt;p&gt;</mark> elements where the parent is a <mark>&lt;div&gt;</mark> element</td>
+                </tr>
+                <tr>
+                    <td><code>element + element</code></td>
+                    <td><code>div + p</code></td>
+                    <td>Selects the first <mark>&lt;p&gt;</mark> element that are placed immediately after <mark>&lt;div&gt;</mark> elements</td>
+                </tr>
+                <tr>
+                    <td><code>element1 ~ element2</code></td>
+                    <td><code>p ~ ul</code></td>
+                    <td>Selects every <mark>&lt;ul&gt;</mark> element that are preceded by a <mark>&lt;p&gt;</mark> element</td>
+                </tr>
+                <tr>
+                    <td><code>[attribute]</code></td>
+                    <td><code>[target]</code></td>
+                    <td>Selects all elements with a <mark>target attribute</mark></td>
+                </tr>
+                <tr>
+                    <td><code>[attribute=value]</code></td>
+                    <td><code>[target=_blank]</code></td>
+                    <td>Selects all elements with <mark>target attribute = "_blank"</mark></td>
+                </tr>
+                <tr>
+                    <td><code>[attribute~=value]</code></td>
+                    <td><code>[title~=flower]</code></td>
+                    <td>Selects all elements with a <mark>title attribute containing the word "flower"</mark></td>
+                </tr>
+                <tr>
+                    <td><code>:hover</code></td>
+                    <td><code>a:hover</code></td>
+                    <td>Selects links <mark>on mouse over</mark></td>
+                </tr>
+                <tr>
+                    <td><code>:nth-child(n)</code></td>
+                    <td><code>p:nth-child(2)</code></td>
+                    <td>Selects every <mark>&lt;p&gt;</mark>element that is the <mark>second child of its parent</mark></td>
+                </tr>
             </table>
         </main>
 
