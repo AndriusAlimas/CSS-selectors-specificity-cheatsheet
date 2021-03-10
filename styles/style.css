@@ -1,7 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 header h1{
     font-size: 5em;
     text-transform: uppercase;
@@ -13,7 +10,20 @@ header h1{
     background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
+section{
+    text-align: center;
+}
+section h1{
+    margin: 2.2em auto;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Volkhov', serif;
+    color: rgb(255, 252, 45);
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 table {
     font-family: Arial;
     margin: 25px auto;
@@ -25,20 +35,44 @@ table {
        0px 20px 20px rgba(0,0,0,0.05),
        0px 30px 20px rgba(0,0,0,0.05);
 }
+
 th {
     background: #c31432;
     color: rgb(255, 252, 45);
     text-transform: uppercase;
     font-size: 12px;
 }
+
 th, td {
     border: 1px solid #eee;
     padding: 12px 35px;
     border-collapse: collapse;
-  }
-  tr:hover{
+}
+
+tr:hover{
     background: #f4f4f4;
   }
-  code{
+
+code{
       color: rgb(199, 96, 199);
   }
+
+ul{
+    list-style-image: url('../img/listItem.png');
+    margin-left: 10em;
+}
+li{
+    margin: 2.5em auto;
+    border: blanchedalmond 2px solid;
+    font-size: 1.5em;
+}
+  p{
+      font-size: large;
+  }
+footer{
+      margin-top: 50px;
+      text-align: center;
+      color: rgba(255,255,255,0.5);
+      background-color: black;
+  }
+  

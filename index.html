@@ -110,6 +110,23 @@
                     <td>Selects every <mark>&lt;p&gt;</mark>element that is the <mark>second child of its parent</mark></td>
                 </tr>
             </table>
+
+            <section>
+                <h1>Calculating CSS Specificity Value</h1>
+                <img src="./img/specificity-calculationbase.png" alt="showing picture most specificity to least specificity" />
+                <ul>
+                    <li>If the element has inline styling, that automatically1 wins (1,0,0,0 points)</li>
+                    <li>For each ID value, apply 0,1,0,0 points</li>
+                    <li>For each class value (or pseudo-class or attribute selector), apply 0,0,1,0 points</li>
+                    <li>For each element reference, apply 0,0,0,1 point</li>
+                </ul>
+                <p>
+                    You can generally read the values as if they were just a number, like 1,0,0,0 is “1000”,
+                     and so clearly wins over a specificity of 0,1,0,0 or “100”. The commas are there to remind
+                      us that this isn’t really a “base 10” system, in that you could technically have a 
+                      specificity value of like 0,1,13,4 – and that “13” doesn’t spill over like a base 10 system would.
+                </p>
+            </section>
         </main>
 
         <footer>
