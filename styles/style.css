@@ -39,3 +39,6 @@ th, td {
   tr:hover{
     background: #f4f4f4;
   }
+  code{
+      color: rgb(199, 96, 199);
+  }
